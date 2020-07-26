@@ -66,9 +66,9 @@ function delItem(e) {
 // Edit Item
 
 function editItem(e){
-    // var newVal = prompt("Enter update value" , e.parentNode.parentNode.firstChild.nodeValue);
-    // e.parentNode.parentNode.firstChild.nodeValue = newVal;
-    console.log(e.parentNode.parentNode.firstChild);
+    var newVal = prompt("Enter update value" , e.parentNode.parentNode.firstChild.nodeValue);
+    e.parentNode.parentNode.firstChild.nodeValue = newVal;
+    console.log(newVal);
 }
 
 // Delete All
