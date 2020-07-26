@@ -63,10 +63,7 @@ body {
 
 .lineThrough{
   font-weight: bold;
-  margin-top: 7px;
+  margin-top: 10px;
   margin-left: 20px;
-}
-
-.fa-refresh{
-  
+  font-size: 15px;
 }
